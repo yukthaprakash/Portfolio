@@ -1,51 +1,70 @@
-# Yuktha P — Portfolio
+<div align="center">
 
-A kawaii game-style personal portfolio showcasing UI/UX design, frontend development, and creative work. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
+# ✨ Yuktha P — Portfolio ✨
 
-![Portfolio Preview](https://images.pexels.com/photos/29765806/pexels-photo-29765806.jpeg?auto=compress&cs=tinysrgb&h=400&w=800)
+### *A kawaii game-style personal portfolio*
 
-## Features
+A whimsical showcase of UI/UX design, frontend development, and creative work — built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-- **Animated Chibi Mascot** — A custom hand-drawn SVG character that waves, sits, paints, points, and waves goodbye across different sections. Click the mascot for a fun reaction message.
-- **Game-Inspired Navigation** — Sections are labeled as "levels" (LV.01 through Final Level) with a scroll progress bar styled as a quest map.
-- **Floating Guide Avatar** — On large screens, the mascot follows your scroll position and changes poses to match each section.
-- **Custom Sparkle Cursor** — A spinning star cursor replaces the default pointer on desktop devices.
-- **Project Showcase** — Interactive project cards with detailed modal views, including live demo and GitHub links.
-- **Design Lab** — A corkboard-style masonry grid displaying design experiments with real photography.
-- **Quest Path** — A zigzag timeline showing the design process from Explore to Refine.
-- **Achievements & Quests** — Badge cards highlighting activities and a scrolling ticker of current obsessions.
-- **Responsive Design** — Fully responsive from mobile to desktop with adaptive layouts.
-- **Pastel Color System** — A custom palette of pink, lilac, baby blue, butter, and mint tones throughout.
+[![GitHub](https://img.shields.io/badge/GitHub-yukthaprakash-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yukthaprakash)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuktha%20P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuktha-p-481767393)
+[![Email](https://img.shields.io/badge/Email-yukthaprakash2007%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yukthaprakash2007@gmail.com)
 
-## Sections
+### 🔗 [**Live Preview**](https://kawaii-game-style-po-2hix.bolt.host)
 
-1. **Hero** — Introduction with animated mascot and call-to-action buttons
-2. **About Me** — Personal story with skill tags, education, and location
-3. **Skills** — Skill cards grouped by proficiency level
-4. **Featured Work** — Project cards with detailed modals (Health Hub, Bento Café, Moodboard, Finance App, Traffic Simulation)
-5. **Design Lab** — Experiment cards with real design photography
-6. **My Approach** — Six-step design process timeline
-7. **Quests & Achievements** — Activity badges and current learning ticker
-8. **Beyond the Screen** — Creative interests (painting, travel, Bharatanatyam, design, technology)
-9. **Contact** — Social links and call-to-action
+</div>
 
-## Tech Stack
+---
 
-- **React 18** — UI library
-- **TypeScript** — Type safety
-- **Vite** — Build tool and dev server
-- **Tailwind CSS** — Utility-first styling with custom theme
-- **Framer Motion** — Animations and transitions
-- **Lucide React** — Icon library
+## 🌸 About
 
-## Getting Started
+A game-style personal portfolio where every section is a "level" to explore — complete with a hand-drawn chibi mascot guide, pastel color palette, and playful micro-interactions throughout.
 
-### Prerequisites
+🔗 **[View Live Site →](https://kawaii-game-style-po-2hix.bolt.host)**
 
-- Node.js 18+ installed
-- npm or your preferred package manager
+## 🎀 Features
 
-### Installation
+| Feature | Description |
+|---|---|
+| 🧸 **Animated Chibi Mascot** | Custom hand-drawn SVG character that waves, sits, paints, and points across sections. Click it for a fun reaction! |
+| 🗺️ **Game-Inspired Navigation** | Sections labeled as "levels" (LV.01 → Final Level) with a scroll progress bar styled as a quest map |
+| 👣 **Floating Guide Avatar** | On large screens, the mascot follows your scroll and changes poses per section |
+| ✨ **Custom Sparkle Cursor** | A spinning star cursor replaces the default pointer on desktop |
+| 🖼️ **Project Showcase** | Interactive project cards with modal views, live demo & GitHub links |
+| 📌 **Design Lab** | A corkboard-style masonry grid of design experiments with real photography |
+| 🛤️ **Quest Path** | A zigzag timeline of the design process, from Explore to Refine |
+| 🏅 **Achievements & Quests** | Badge cards + a scrolling ticker of current obsessions |
+| 📱 **Responsive Design** | Fully responsive, mobile to desktop |
+| 🎨 **Pastel Color System** | Custom palette of pink, lilac, baby blue, butter, and mint |
+
+## 🧭 Sections
+
+- **Hero** — Introduction with animated mascot and CTAs
+- **About Me** — Personal story, skill tags, education, location
+- **Skills** — Skill cards grouped by proficiency
+- **Featured Work** — Health Hub, Bento Café, Moodboard, Finance App, Traffic Simulation
+- **Design Lab** — Experiment cards with real design photography
+- **My Approach** — Six-step design process timeline
+- **Quests & Achievements** — Activity badges + learning ticker
+- **Beyond the Screen** — Painting, travel, Bharatanatyam, design, technology
+- **Contact** — Social links and CTA
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide_React-Icons-F56565?style=flat-square)
+
+</div>
+
+## 🚀 Getting Started
+
+**Prerequisites:** Node.js 18+ and npm (or your preferred package manager)
 
 ```bash
 # Clone the repository
@@ -61,15 +80,15 @@ npm run dev
 
 The site will be available at `http://localhost:5173`.
 
-### Build for Production
+**Build for production:**
 
 ```bash
 npm run build
 ```
 
-The built files will be in the `dist/` directory.
+Built files land in the `dist/` directory.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
@@ -98,27 +117,37 @@ src/
 │       ├── Contact.tsx
 │       └── Footer.tsx
 ├── data/
-│   └── content.ts             # All site content (projects, skills, links)
+│   └── content.ts              # All site content (projects, skills, links)
 └── hooks/
-    └── useActiveSection.ts    # IntersectionObserver hook for nav tracking
+    └── useActiveSection.ts     # IntersectionObserver hook for nav tracking
 ```
 
-## Customization
+## 🎨 Customization
 
-All content — projects, skills, social links, experiment categories, approach steps, and creative interests — is centralized in `src/data/content.ts`. Edit that file to update the portfolio content without touching component code.
+All content — projects, skills, social links, experiment categories, approach steps, and creative interests — is centralized in `src/data/content.ts`. Edit that file to update portfolio content without touching component code.
 
-The color palette, fonts, shadows, and animations are defined in `tailwind.config.js`. The mascot character is a custom SVG in `src/components/ChibiAvatar.tsx`.
+Color palette, fonts, shadows, and animations live in `tailwind.config.js`. The mascot character is a custom SVG in `src/components/ChibiAvatar.tsx`.
 
-## Connect
+## 💌 Connect With Me
 
-- **GitHub:** [github.com/yukthaprakash](https://github.com/yukthaprakash)
-- **LinkedIn:** [linkedin.com/in/yuktha-p-481767393](https://www.linkedin.com/in/yuktha-p-481767393)
-- **Email:**[yukthaprakash2007@gmail.com] 
+<div align="center">
 
-## License
+| Platform | Link |
+|---|---|
+| 🐙 GitHub | [github.com/yukthaprakash](https://github.com/yukthaprakash) |
+| 💼 LinkedIn | [linkedin.com/in/yuktha-p-481767393](https://linkedin.com/in/yuktha-p-481767393) |
+| 📧 Email | [yukthaprakash2007@gmail.com](mailto:yukthaprakash2007@gmail.com) |
+
+</div>
+
+## 📄 License
 
 This project is personal portfolio work. Feel free to reference the structure and approach for your own portfolio, but please don't copy the design, mascot, or content directly.
 
 ---
 
-Designed with curiosity. Built with code.
+<div align="center">
+
+*Designed with curiosity. Built with code.* 🌷
+
+</div>
