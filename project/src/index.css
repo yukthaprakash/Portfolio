@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', system-ui, sans-serif;
+    color: #3D2B4E;
+    background: linear-gradient(135deg, #FFF5FA 0%, #F6F0FF 30%, #F0FAFF 60%, #FFFCF0 100%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Fredoka', system-ui, sans-serif;
+    line-height: 1.2;
+  }
+}
+
+@layer utilities {
+  .text-gradient-pink {
+    background: linear-gradient(135deg, #FF7BAC 0%, #B388FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gradient-rainbow {
+    background: linear-gradient(135deg, #FF7BAC 0%, #B388FF 50%, #9ADBFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .dotted-path {
+    background-image: radial-gradient(circle, #C2A8FF 1.5px, transparent 1.5px);
+    background-size: 12px 12px;
+  }
+
+  .dotted-path-v {
+    background-image: radial-gradient(circle, #C2A8FF 1.5px, transparent 1.5px);
+    background-size: 12px 12px;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Cute custom cursor on desktop only */
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Hide default cursor when custom cursor is active */
+.custom-cursor-active {
+  cursor: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5FA;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFB8D8;
+  border-radius: 10px;
+  border: 2px solid #FFF5FA;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF7BAC;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
