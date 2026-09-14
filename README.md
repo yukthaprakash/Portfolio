@@ -4,7 +4,7 @@
 
 ### *A kawaii game-style personal portfolio*
 
-A whimsical showcase of UI/UX design, frontend development, and creative work — built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
+A whimsical showcase of UI/UX design, frontend development,graphic designing and creative work — built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-yukthaprakash-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yukthaprakash)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuktha%20P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuktha-p-481767393)
