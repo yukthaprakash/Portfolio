@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Yuktha P — Portfolio ✨
+# ✨ Yuktha — Portfolio ✨
 
 ### *A kawaii game-style personal portfolio*
 
